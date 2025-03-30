@@ -2,11 +2,11 @@ package com.example.myapplication
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.myapplication.databinding.ActivityMainBinding
+import com.example.myapplication.databinding.ActivityLoginBinding
 import com.google.android.material.snackbar.Snackbar
 
-class MainActivity : AppCompatActivity() {
-    private val binding by lazy{ ActivityMainBinding.inflate(layoutInflater)}
+class LoginActivity : AppCompatActivity() {
+    private val binding by lazy { ActivityLoginBinding.inflate(layoutInflater) }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
