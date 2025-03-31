@@ -18,15 +18,13 @@ class SetActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.buttonResult.setOnClickListener {
-
-
-            val height: Int = binding.height.text.toString().toInt()
-            val weight: Int = binding.weight.text.toString().toInt()
+            val height = binding.height.text.toString().toInt()
+            val weight = binding.weight.text.toString().toInt()
 
             val intent = Intent(this, ResultActivity::class.java)
-            intent.putExtra("height", height)  // 신장 값 전달
-            intent.putExtra("weight", weight)  // 체중 값 전달
-            startActivity(intent)  // ResultActivity 시작
+            intent.putExtra("height", height)
+            intent.putExtra("weight", weight)
+            startActivity(intent)
         }
     }
 }
