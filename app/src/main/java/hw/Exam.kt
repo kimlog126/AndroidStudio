@@ -1,4 +1,4 @@
-package com.example.myapplication
+package hw
 
 data class Exam(
     val title: String,

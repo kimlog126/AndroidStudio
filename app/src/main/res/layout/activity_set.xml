@@ -8,7 +8,7 @@
     android:layout_gravity="center"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".SetActivity">
+    tools:context="hw.SetActivity">
 
     <TextView
         android:id="@+id/textView2"

@@ -1,12 +1,10 @@
-package com.example.myapplication
+package hw
 
 import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
+import com.example.myapplication.R
 import com.example.myapplication.databinding.ActivityResultBinding
 import kotlin.math.pow
 
