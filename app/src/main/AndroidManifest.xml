@@ -13,17 +13,32 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
-            android:name=".ExamActivity"
+            android:name=".RVAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".uploadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="hw.ExamActivity"
             android:exported="true" />
         <activity
-            android:name=".ResultActivity"
+            android:name="hw.ResultActivity"
             android:exported="true" />
         <activity
-            android:name=".SetActivity"
+            android:name="hw.SetActivity"
             android:exported="true"
             android:theme="@style/Theme.MyApplication" />
         <activity
-            android:name=".LoginActivity"
+            android:name="hw.LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
