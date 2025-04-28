@@ -13,39 +13,38 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
-            android:name=".RVAdapter"
-            android:exported="false" />
-        <activity
-            android:name=".uploadActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
+            android:name="colorpick.IntroActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
-            android:name="hw.ExamActivity"
-            android:exported="true" />
-        <activity
-            android:name="hw.ResultActivity"
-            android:exported="true" />
-        <activity
-            android:name="hw.SetActivity"
-            android:exported="true"
-            android:theme="@style/Theme.MyApplication" />
-        <activity
-            android:name="hw.LoginActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:name="colorpick.MainActivity"
+            android:exported="false"
+            android:label="@string/title_activity_main" />
+<!--        <activity-->
+<!--            android:name="hw.uploadActivity"-->
+<!--            android:exported="false" />-->
+<!--        <activity-->
+<!--            android:name="hw.FirebaseActivity"-->
+<!--            android:exported="false"></activity>-->
+<!--        <activity-->
+<!--            android:name="hw.ExamActivity"-->
+<!--            android:exported="true" />-->
+<!--        <activity-->
+<!--            android:name="hw.ResultActivity"-->
+<!--            android:exported="true" />-->
+<!--        <activity-->
+<!--            android:name="hw.SetActivity"-->
+<!--            android:exported="true"-->
+<!--            android:theme="@style/Theme.MyApplication" />-->
+<!--        <activity-->
+<!--            android:name="hw.LoginActivity"-->
+<!--            android:exported="true">-->
+<!--            -->
+<!--        </activity>-->
     </application>
 
 </manifest>
