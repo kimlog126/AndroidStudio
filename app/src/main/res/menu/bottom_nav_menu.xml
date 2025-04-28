@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_red"
+        android:icon="@drawable/art"
+        android:title="RED" />
+
+    <item
+        android:id="@+id/navigation_pink"
+        android:icon="@drawable/art"
+        android:title="PINK" />
+
+    <item
+        android:id="@+id/navigation_yellow"
+        android:icon="@drawable/art"
+        android:title="YELLOW" />
+
+    <item
+        android:id="@+id/navigation_blue"
+        android:icon="@drawable/art"
+        android:title="BLUE" />
+
+</menu>
