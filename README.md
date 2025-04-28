@@ -15,6 +15,7 @@
 - 🔥 [Firebase 실습 - data](app/src/main/java/com/example/myapplication/DocModel.kt)
 - 🔥 [Firebase 실습 - upload](app/src/main/java/com/example/myapplication/uploadActivity.kt)
 - 🔥 [Firebase 실습 - adapter](app/src/main/java/com/example/myapplication/DocAdapter.kt)
+- 🎨 [Color Pick](app/src/main/java/colorpick)
 
 ### 🧡 xml 목록
 - 🔒 [Login 화면 레이아웃](app/src/main/res/layout/activity_login.xml)
@@ -25,3 +26,4 @@
 - 🔥 [Firebase 실습 - main 레이아웃](app/src/main/res/layout/activity_main.xml)
 - 🔥 [Firebase 실습 - upload 레이아웃](app/src/main/res/layout/activity_upload.xml)
 - 🔥 [Firebase 실습 - doc item 레이아웃](app/src/main/res/layout/item_doc.xml)
+- 🎨 Color Pick 레이아웃은 따로 링크하지 않겠습니다. 
